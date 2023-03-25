@@ -68,7 +68,7 @@ const WhyInvestorsLovesUs = () => {
           fontWeight="extrabold"
           textAlign={"center"}
         >
-          Why investors Loves Us ?
+          Why investor Love Us ?
         </Heading>
         <Text fontSize="xs" color="gray.500" textAlign={"center"}>
           niveshkro funds are the combination of stocks, bonds, ETF & mutual
