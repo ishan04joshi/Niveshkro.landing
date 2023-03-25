@@ -318,29 +318,7 @@ export default function Header() {
             </Flex>
             <Flex>
               <HStack spacing="5" display={{ base: "none", md: "flex" }}>
-                {/* <Popover>
-                  <PopoverTrigger>
-                    <Button
-                      bg={bg}
-                      color="gray.500"
-                      display="inline-flex"
-                      alignItems="center"
-                      fontSize="md"
-                      _hover={{ color: cl }}
-                      _focus={{ boxShadow: "none" }}
-                      rightIcon={<IoIosArrowDown />}
-                    >
-                      Packages
-                    </Button>
-                  </PopoverTrigger>
-                  <PopoverContent
-                    w="100vw"
-                    maxW="md"
-                    _focus={{ boxShadow: "md" }}
-                  >
-                    <Features />
-                  </PopoverContent>
-                </Popover> */}
+                {}
                 <Button
                   bg={bg}
                   color="gray.500"

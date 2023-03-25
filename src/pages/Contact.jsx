@@ -119,7 +119,6 @@ export default function ContactFormWithSocialButtons() {
           align="center"
           justify="center"
           css={{
-            // backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
             backgroundAttachment: "fixed",
           }}
           id="contact"
@@ -237,11 +236,11 @@ export default function ContactFormWithSocialButtons() {
         </MotionFlex>
       </GridItem>
       <GridItem>
+        
         <MotionFlex
           align="center"
           justify="center"
           css={{
-            // backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
             backgroundAttachment: "fixed",
           }}
           id="contact"
@@ -286,6 +285,7 @@ export default function ContactFormWithSocialButtons() {
                       Click here
                     </Text>
                   </Stack>
+
                   <Stack spacing={1}>
                     <Heading color="gray.600">Mailing Address:</Heading>
                     <Text textAlign={"left"} color="blue.400">

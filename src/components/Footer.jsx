@@ -181,7 +181,9 @@ export default function Footer() {
               _hover={{
                 bg: "transparent",
               }}
-              onClick={() => window.open("https://twitter.com/niveshkro")}
+              onClick={
+                () => window.open("https://twitter.com/niveshkro")
+              }
             />
             <IconButton
               variant="ghost"
@@ -191,7 +193,10 @@ export default function Footer() {
               _hover={{
                 bg: "transparent",
               }}
-              onClick={() => window.open("https://www.facebook.com/profile.php?id=100088049628338")}
+              onClick={
+                () => window.open("https://www.facebook.com/profile.php?id=100088049628338")
+              }
+
             />
             <IconButton
               variant="ghost"
@@ -201,7 +206,9 @@ export default function Footer() {
               _hover={{
                 bg: "transparent",
               }}
-              onClick={() => window.open("https://www.instagram.com/niveshkro/")}
+              onClick={
+                () => window.open("https://www.instagram.com/niveshkro/")
+              }
             />
             <IconButton
               variant="ghost"
@@ -211,7 +218,9 @@ export default function Footer() {
               _hover={{
                 bg: "transparent",
               }}
-              onClick={() => window.open("https://www.linkedin.com/company/niveshkro/")}
+              onClick={
+                () => window.open("https://www.linkedin.com/company/niveshkro/")
+              }
             />
             <IconButton
               variant="ghost"
@@ -221,7 +230,9 @@ export default function Footer() {
               _hover={{
                 bg: "transparent",
               }}
-              onClick={() => window.open("https://www.youtube.com/channel/UCwIemLiRBJ7GtUA_ixIUing")}
+              onClick={
+                () => window.open("https://www.youtube.com/channel/UCwIemLiRBJ7GtUA_ixIUing")
+              }
             />
             <IconButton
               variant="ghost"

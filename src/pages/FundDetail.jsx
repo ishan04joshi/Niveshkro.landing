@@ -136,9 +136,7 @@ const FundDetail = () => {
         size: 0,
         style: "hollow",
       },
-      // xaxis: {
-      //   categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
-      // },
+      
       xaxis: {
         type: "datetime",
         min: new Date(
@@ -194,9 +192,7 @@ const FundDetail = () => {
         size: 0,
         style: "hollow",
       },
-      // xaxis: {
-      //   categories: [1991, 1992, 1993, 1994, 1995, 1996, 1997, 1998],
-      // },
+    
       xaxis: {
         labels: {
           show: false,
